@@ -39,9 +39,9 @@ go get -u github.com/PuerkitoBio/goquery
 go run main,go
 ```
 
-正常情况下控制台会输出如下日志以及数据库信息（部分）：
+正常情况下控制台会输出如下日志（部分）：
 
-![image-20210923235257249](https://typora-photos.oss-cn-shenzhen.aliyuncs.com/img/image-20210923235257249.png)
+![image-20210923235257249](https://typora-photos.oss-cn-shenzhen.aliyuncs.com/img/image-20210924002019618.png)
 
 ### 核心代码
 
