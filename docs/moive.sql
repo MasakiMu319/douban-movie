@@ -1,14 +1,14 @@
 CREATE TABLE `sp_douban_movie` (
-  `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
-  `title` varchar(30) DEFAULT '' COMMENT '标题',
-  `subtitle` varchar(30) DEFAULT '' COMMENT '副标题',
-  `other` varchar(30) DEFAULT '' COMMENT '其他',
-  `desc` varchar(50) DEFAULT '' COMMENT '简述',
-  `year` int(10) unsigned DEFAULT '0' COMMENT '年份',
-  `area` varchar(20) DEFAULT '' COMMENT '地区',
-  `tag` varchar(20) DEFAULT '' COMMENT '标签',
-  `star` int(10) unsigned DEFAULT '0' COMMENT 'star',
-  `comment` int(10) unsigned DEFAULT '0' COMMENT '评分',
-  `quote` text DEFAULT '' COMMENT '引用',
-  PRIMARY KEY (`id`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='豆瓣电影Top250';
+    `id` INT ( 10 ) UNSIGNED NOT NULL AUTO_INCREMENT,
+    `title` VARCHAR ( 50 ) DEFAULT '' COMMENT '标题',
+    `subtitle` VARCHAR ( 100 ) DEFAULT '' COMMENT '副标题',
+    `other` VARCHAR ( 100 ) DEFAULT '' COMMENT '其他',
+    `desc` VARCHAR ( 200 ) DEFAULT '' COMMENT '简述',
+    `year` VARCHAR ( 20 ) DEFAULT '' COMMENT '年份',
+    `area` VARCHAR ( 200 ) DEFAULT '' COMMENT '地区',
+    `tag` VARCHAR ( 200 ) DEFAULT '' COMMENT '标签',
+    `star` INT ( 10 ) UNSIGNED DEFAULT '0' COMMENT 'star',
+    `comment` INT ( 10 ) UNSIGNED DEFAULT '0' COMMENT '评分',
+    `quote` VARCHAR ( 200 ) DEFAULT '' COMMENT '引用',
+    PRIMARY KEY ( `id` )
+) ENGINE = INNODB DEFAULT CHARSET = utf8 COMMENT = '豆瓣电影Top250';
